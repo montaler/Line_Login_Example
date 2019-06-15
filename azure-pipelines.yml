@@ -33,6 +33,6 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
- - script: |
+- script: |
     npm test
-   displayName: 'npm install, build, and test'
+  displayName: 'npm install, build, and test'
