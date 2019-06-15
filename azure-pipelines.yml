@@ -34,5 +34,7 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - script: |
+    npm install
+    npm run build
     npm test
   displayName: 'npm install, build, and test'
